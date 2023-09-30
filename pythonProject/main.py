@@ -31,5 +31,3 @@ if __name__ == '__main__':
             keyboard.press_and_release('backspace')
             sleep(0.01)
             vvod('Вопросов нет')
-
-
