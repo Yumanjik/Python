@@ -4,7 +4,6 @@ import math
 def square():
     print("Введите коэффициенты для уравнения \nax^2 + bx + c = 0:")
 
-
     try:
         a = float(input("a = "))
     except ValueError:
