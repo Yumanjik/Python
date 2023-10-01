@@ -28,7 +28,7 @@ def main():
         keys.append(k)
 
     c = [[0 for _ in range(len(b))] for _ in range(len(b[0]))]
-    d = [[0 for _ in range(len(b))] for _ in range(len(b[0]))]
+    d = c.copy()
 
     for i in range(len(b)):
         for j in range(len(b[0])):

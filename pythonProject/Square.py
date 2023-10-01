@@ -8,19 +8,19 @@ def square():
         a = float(input("a = "))
     except ValueError:
         print("Ошибка 1 \nНеверный формат введённых данных")
-        return
+        return 'Ошибка 1'
 
     try:
         b = float(input("b = "))
     except ValueError:
         print('Ошибка 1 \nНеверный формат введённых данных')
-        return
+        return 'Ошибка 1'
 
     try:
         c = float(input("c = "))
     except ValueError:
         print('Ошибка 1 \nНеверный формат введённых данных')
-        return
+        return 'Ошибка 1'
 
     discr = b ** 2 - 4 * a * c
     print("Дискриминант D = %.2f" % discr)
