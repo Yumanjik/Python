@@ -72,11 +72,11 @@ mainwindow.resizable(width=False, height=False)
 mainwindow.protocol('WM_DELETE_WINDOW', on_close)
 
 # Главная надпись
-mainlbl = Label(mainwindow, text='Введите коэффициенты квадратного уравнения вида ax^2 + bx + c = 0 ')
+mainlbl = Label(mainwindow, text='Введите коэффициенты квадратного уравнения вида ax² + bx + c = 0 ')
 mainlbl.place(x=5, y=0)
 
 # Надписи
-lbl_1 = Label(mainwindow, text='x^2+')
+lbl_1 = Label(mainwindow, text='x²+')
 lbl_1.place(x=40, y=20)
 
 lbl_2 = Label(mainwindow, text='x+')
@@ -99,7 +99,7 @@ ent_3.place(x=125, y=22)
 ent_3.insert(0, '0')
 
 # Кнопка
-ansbtn = Button(mainwindow, text='Искать Ответ', command=lambda: btnclick())
+ansbtn = Button(mainwindow, text='Искать Ответ', command=btnclick)
 ansbtn.place(x=310, y=50)
 
 # Ответ
